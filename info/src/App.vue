@@ -1,60 +1,47 @@
 <template>
-  <v-app>
-    <v-app-bar
-      app
-      color="primary"
-      dark
-    >
-      <div class="d-flex align-center">
-        <v-img
-          alt="Vuetify Logo"
-          class="shrink mr-2"
-          contain
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
-          transition="scale-transition"
-          width="40"
-        />
-
-        <v-img
-          alt="Vuetify Name"
-          class="shrink mt-1 hidden-sm-and-down"
-          contain
-          min-width="100"
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
-          width="100"
-        />
-      </div>
-
-      <v-spacer></v-spacer>
-
-      <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-        text
+  <div id="app">
+    <v-app>
+      <v-app-bar
+        absolute
+        app
+        color="error"
+        hide-on-scroll
+        dark
+        scroll-target="#main"
       >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
-      </v-btn>
-    </v-app-bar>
+        <v-btn to="/" text>
+          <span class="mr-2">Info</span>
+          <v-icon>mdi-information</v-icon>
+        </v-btn>
 
-    <v-main>
-      <HelloWorld/>
-    </v-main>
-  </v-app>
+        <v-btn to="/album" text>
+          <span class="mr-2">Album</span><v-icon>mdi-album</v-icon>
+        </v-btn>
+
+        <v-btn to="/parking" text>
+          <span class="mr-2">maps</span><v-icon>mdi-google-maps</v-icon>
+        </v-btn>
+
+        <v-btn to="/timeline" text>
+          <span class="mr-2">Timeline</span><v-icon>mdi-chart-timeline</v-icon>
+        </v-btn>
+      </v-app-bar>
+
+      <v-main>
+        <div id="main">
+          <router-view />
+        </div>
+      </v-main>
+    </v-app>
+  </div>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld';
-
-export default {
-  name: 'App',
-
-  components: {
-    HelloWorld,
-  },
-
-  data: () => ({
-    //
-  }),
-};
-</script>
+<style lang="scss">
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+</style>
