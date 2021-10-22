@@ -9,21 +9,24 @@
         dark
         scroll-target="#main"
       >
+        <v-btn icon>
+          <v-icon>mdi-menu</v-icon>
+        </v-btn>
         <v-btn to="/" text>
           <span class="mr-2">Info</span>
           <v-icon>mdi-information</v-icon>
         </v-btn>
-
-        <v-btn to="/album" text>
-          <span class="mr-2">Album</span><v-icon>mdi-album</v-icon>
-        </v-btn>
-
-        <v-btn to="/parking" text>
+        <v-btn to="/maps" text>
           <span class="mr-2">maps</span><v-icon>mdi-google-maps</v-icon>
         </v-btn>
-
+        <v-btn to="/seat" text>
+          <span class="mr-2">Seat</span><v-icon>mdi-chart-timeline</v-icon>
+        </v-btn>
         <v-btn to="/timeline" text>
           <span class="mr-2">Timeline</span><v-icon>mdi-chart-timeline</v-icon>
+        </v-btn>
+        <v-btn to="/album" text>
+          <span class="mr-2">Album</span><v-icon>mdi-album</v-icon>
         </v-btn>
       </v-app-bar>
 

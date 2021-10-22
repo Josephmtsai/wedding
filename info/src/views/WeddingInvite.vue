@@ -2,14 +2,14 @@
   <div class="home">
     <img
       alt="WeddingInfo"
-      src="../assets/WEDDING_C-01.png"
+      src="../assets/WEDDING_01.png"
       width="100%"
       height="75%"
     />
-
+    <v-divider></v-divider>
     <img
       alt="WeddingInfo"
-      src="../assets/WEDDING_B-01.png"
+      src="../assets/WEDDING_02.png"
       width="100%"
       height="75%"
     />
@@ -19,7 +19,6 @@
 .home {
   max-height: 100%;
   max-width: 100%;
-  border: 1px;
 }
 </style>
 <script>
