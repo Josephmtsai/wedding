@@ -15,20 +15,23 @@
           </v-btn>
         </v-col></v-row
       >
-    </v-container>
-    <img
-      alt="WeddingInfo"
-      src="../assets/WEDDING_01.png"
-      width="100%"
-      height="75%"
-    />
-    <v-divider></v-divider>
-    <img
+      <v-row no-gutters>
+        <img
+          alt="WeddingInfo"
+          src="../assets/WEDDING_01.png"
+          width="100%"
+          height="75%"
+        />
+      </v-row>
+      <v-row no-gutters>
+        <img
       alt="WeddingInfo"
       src="../assets/WEDDING_02.png"
       width="100%"
       height="75%"
-    />
+        />
+      </v-row>
+    </v-container>
   </div>
 </template>
 <style lang="scss">
