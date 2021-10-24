@@ -1,6 +1,6 @@
 <template>
   <v-app id="maps">
-    <v-container class="grey lighten-5 text-lg-right">
+    <v-container fluid class="grey lighten-5 text-lg-right">
       <v-row no-gutters>
         <v-col class="text-left">
           <v-icon> mdi-check-outline</v-icon>

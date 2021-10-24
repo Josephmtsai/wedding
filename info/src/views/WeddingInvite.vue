@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <v-container class="grey lighten-5 text-lg-right">
+    <v-container fluid class="grey lighten-5 text-lg-right">
       <v-row no-gutters>
         <v-col class="text-left">
           <v-btn
@@ -25,10 +25,10 @@
       </v-row>
       <v-row no-gutters>
         <img
-      alt="WeddingInfo"
-      src="../assets/WEDDING_02.png"
-      width="100%"
-      height="75%"
+          alt="WeddingInfo"
+          src="../assets/WEDDING_02.png"
+          width="100%"
+          height="75%"
         />
       </v-row>
     </v-container>
