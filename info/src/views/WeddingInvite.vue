@@ -44,10 +44,6 @@
 export default {
   name: "WeddingInvite",
   components: {},
-  methods: {
-    addToCalendar() {
-      this.msg = "快來看這裡！我是新訊息！";
-    },
-  },
+  methods: {},
 };
 </script>
