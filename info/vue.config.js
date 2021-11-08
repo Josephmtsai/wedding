@@ -3,5 +3,7 @@ module.exports = {
     'vuetify'
   ],
   outputDir: "../dist",
-  assetsDir: "static"
+  assetsDir: "static",
+  runtimeCompiler: true
+
 }
