@@ -18,7 +18,7 @@
       <v-row no-gutters>
         <img
           alt="WeddingInfo"
-          src="../assets/WEDDING_01.png"
+          src="../assets/WEDDING_01.jpg"
           width="100%"
           height="75%"
         />
@@ -26,7 +26,7 @@
       <v-row no-gutters>
         <img
           alt="WeddingInfo"
-          src="../assets/WEDDING_02.png"
+          src="../assets/WEDDING_02.jpg"
           width="100%"
           height="75%"
         />
