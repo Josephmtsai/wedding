@@ -10,6 +10,8 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
+    "vue-add-events-to-google-calendar": "^0.0.2",
+    "vue-add-to-calendar": "^1.0.7",
     "vue-router": "^3.5.2",
     "vuetify": "^2.4.0"
   },
